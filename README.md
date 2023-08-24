@@ -1,6 +1,10 @@
 
 # Introduction
     Resolved Issue: When reading a file, the inadvertent use of "w" mode will erase the original file's contents.
+# Install
+```Shell
+    pip install safe_open
+```
 # How to use
 ```Python
     from safe_open import safe_open

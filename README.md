@@ -1,7 +1,9 @@
 
-## Demo code
+# Introduction
+    Resolved Issue: When reading a file, the inadvertent use of "w" mode will erase the original file's contents.
+# How to use
 ```Python
-    import safe_open
+    from safe_open import safe_open
 
     with safe_open("test.txt", "w") as f:
         f.write("Hello, World!")  # 正常写入
